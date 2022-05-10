@@ -1,0 +1,26 @@
+header{
+position: relative;
+width: 940px;
+margin: 0 auto;
+}
+
+
+.logo{
+	width: 250;
+}
+
+nav ul{
+	position: absolute;
+	top: 70px;
+	right: 50px;
+}
+
+nav li{
+	display: inline;
+
+}
+
+nav a{
+	font-size: 20px;
+}
+
