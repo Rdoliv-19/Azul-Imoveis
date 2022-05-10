@@ -28,3 +28,13 @@ nav a{
 	text-transform: uppercase;
 }
 
+main{
+	position: relative;
+	width: 940px;
+	margin: 30px auto;
+}
+
+.imagens{
+	width: 200px;
+}
+
