@@ -1,18 +1,24 @@
+.cabecalho{
+	background:#D4F8AA;
+	height: 150px;
+}
+
 header{
 position: relative;
 width: 940px;
 margin: 0 auto;
-
 }
 
 
 .logo{
-	width: 250;
+	position: relative;
+	top: 40px;
+	width: 150px;
 }
 
 nav ul{
 	position: absolute;
-	top: 80px;
+	top: 70px;
 	right: 50px;
 }
 
@@ -32,7 +38,18 @@ nav a{
 main{
 	position: relative;
 	width: 940px;
-	margin: 90px auto;
+	margin: 150px auto;
+}
+
+
+main h2{
+	text-align: center;
+	font-size: 18px;
+	font-style: italic;
+}
+
+main p{
+	margin-top: 15px;
 }
 
 .imagens{
@@ -43,8 +60,14 @@ main{
 
 main li{
 	display: inline-block;
-	margin-right: 70px;
+	position: relative;
+	right: 0px;
+	text-align: center;
+	margin-right: 20px;
 	vertical-align: top;
+	border: 2px solid #808080;
+	padding: 50 20;
+	border-radius: 10px;
 
 }
 
