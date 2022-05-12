@@ -2,6 +2,7 @@ header{
 position: relative;
 width: 940px;
 margin: 0 auto;
+
 }
 
 
@@ -31,10 +32,32 @@ nav a{
 main{
 	position: relative;
 	width: 940px;
-	margin: 30px auto;
+	margin: 90px auto;
 }
 
 .imagens{
 	width: 200px;
+	height: 122px;
+
 }
 
+main li{
+	display: inline-block;
+	margin-right: 70px;
+	vertical-align: top;
+
+}
+
+.logo-rodape{
+	width: 50;
+}
+
+footer{
+	background:#D4F8AA ;
+	text-align: center;
+}
+
+footer p{
+	font-size: 12px;
+	padding: 0;
+}
