@@ -35,10 +35,19 @@ nav a{
 	text-transform: uppercase;
 }
 
+nav a:hover{
+	color:#B8860B;
+	font-weight: bold;
+}
+
 main{
 	position: relative;
 	width: 940px;
-	margin: 150px auto;
+	margin: 50px auto;
+}
+
+.lista-servicos{
+	text-align: center;
 }
 
 
@@ -68,19 +77,24 @@ main li{
 	border: 2px solid #808080;
 	padding: 50 20;
 	border-radius: 10px;
+}
 
+main li:hover{
+	border: 2.5px solid #B8860B	;
 }
 
 .logo-rodape{
-	width: 50;
+	width: 60;
 }
 
 footer{
 	background:#D4F8AA ;
 	text-align: center;
+	position: relative;
+	top: 50;
 }
 
 footer p{
 	font-size: 12px;
-	padding: 0;
+	
 }
