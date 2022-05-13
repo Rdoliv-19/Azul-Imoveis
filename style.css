@@ -87,6 +87,11 @@ main li:hover{
 	width: 60;
 }
 
+.formulario{
+	display: block;
+	margin: 10px 10px;
+}
+
 footer{
 	background:#D4F8AA ;
 	text-align: center;
