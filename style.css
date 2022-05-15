@@ -1,5 +1,5 @@
 .cabecalho{
-	background:#D4F8AA;
+	background-image: url(fundo.jfif);
 	height: 100px;
 }
 
@@ -29,7 +29,7 @@ nav li{
 
 nav a{
 	font-size: 25px;
-	color: #808080;
+	color: #B8860B;
 	font-weight: bold;
 	text-decoration: none;
 	margin-right: 10px;
@@ -37,7 +37,7 @@ nav a{
 }
 
 nav a:hover{
-	color:#B8860B;
+	color:#FF8C00;
 	font-weight: bold;
 }
 
@@ -123,7 +123,7 @@ form label, legend{
 }
 
 footer{
-	background:#D4F8AA ;
+	background:#DCDCDC;
 	text-align: center;
 	position: relative;
 	top: 100;
