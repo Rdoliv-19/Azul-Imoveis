@@ -1,3 +1,7 @@
+body{
+	font-family: 'Caveat', cursive;
+}
+
 .cabecalho{
 	background-image: url(fundo.jfif);
 	height: 100px;
@@ -16,13 +20,13 @@ margin: 0 auto;
 	width: 150px;
 }
 
-nav ul{
+.navegacao{
 	position: absolute;
 	top: 40px;
 	right: 50px;
 }
 
-nav li{
+.navegacao li{
 	display: inline;
 
 }
@@ -47,20 +51,20 @@ main{
 	margin: 50px auto;
 }
 
+
+
 .lista-servicos{
 	text-align: center;
 }
 
 
-main h2{
+.titulo-servicos{
 	text-align: center;
 	font-size: 18px;
 	font-style: italic;
 }
 
-main p{
-	margin-top: 15px;
-}
+
 
 .imagens{
 	width: 200px;
@@ -68,7 +72,7 @@ main p{
 
 }
 
-main li{
+.lista-servicos li{
 	display: inline-block;
 	position: relative;
 	right: 0px;
@@ -80,7 +84,7 @@ main li{
 	border-radius: 10px;
 }
 
-main li:hover{
+.lista-servicos li:hover{
 	border: 2.5px solid #B8860B	;
 }
 
@@ -132,4 +136,71 @@ footer{
 footer p{
 	font-size: 12px;
 	
+}
+
+/* css index */
+.banner{
+	width: 100%;
+}
+
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal p{
+	margin: 0 0 1em;
+}
+
+principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+}
+
+.imagem-imob{
+	width: 40%;
+}
+
+.conteudo-beneficios{
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.imagem-reduzida{
+	width: 200px;
+	float:left ;
+	margin: 0 20px 20px 0;
+}
+
+.mapa{
+	padding: 3em 0;
+}
+
+.mapa p{
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.video{
+	width: 560px;
+	margin: 3em auto;
+}
+
+.itens{
+line-height:1.5em;
+}
+
+.itens:first-child{
+	font-weight: bold;
 }
