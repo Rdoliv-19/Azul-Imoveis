@@ -31,7 +31,7 @@ margin: 0 auto;
 
 }
 
-nav a{
+.navegacao a{
 	font-size: 25px;
 	color: #B8860B;
 	font-weight: bold;
@@ -40,15 +40,13 @@ nav a{
 	text-transform: uppercase;
 }
 
-nav a:hover{
+.navegacao a:hover{
 	color:#FF8C00;
 	font-weight: bold;
 }
 
 main{
-	position: relative;
-	width: 940px;
-	margin: 50px auto;
+	
 }
 
 
@@ -104,6 +102,8 @@ form label, legend{
 	font-size: 20px;
 	margin: 0 0 10px;
 }
+
+
 .options{
 	margin: 0 0 15px;
 }
@@ -150,11 +150,20 @@ footer p{
 	clear: left;
 }
 
+.principal{
+	padding: 3em 0;
+	background: ;
+	width: 940px;
+	margin: 0px auto;
+}
+
+
+
 .principal p{
 	margin: 0 0 1em;
 }
 
-principal strong{
+.principal strong{
 	font-weight: bold;
 }
 
@@ -164,6 +173,8 @@ principal strong{
 
 .imagem-imob{
 	width: 40%;
+	position: relative;
+	left: 140px;
 }
 
 .conteudo-beneficios{
@@ -171,9 +182,18 @@ principal strong{
 	margin: 0 auto;
 }
 
+.beneficios{
+	padding: 3em 0;
+	background:#808080;
+	width: 940px;
+	margin: 0px auto; 
+}
+
 .lista-beneficios{
-	width: 40%;
+	width: 30%;
 	display: inline-block;
+	position: relative;
+	left: 230px;
 	vertical-align: top;
 }
 
@@ -185,6 +205,12 @@ principal strong{
 
 .mapa{
 	padding: 3em 0;
+	
+}
+
+.mapa-conteudo{
+	width: 940px;
+	margin: 0 auto;
 }
 
 .mapa p{
@@ -199,6 +225,7 @@ principal strong{
 
 .itens{
 line-height:1.5em;
+
 }
 
 .itens:first-child{
