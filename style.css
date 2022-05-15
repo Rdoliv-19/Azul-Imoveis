@@ -1,6 +1,6 @@
 .cabecalho{
 	background:#D4F8AA;
-	height: 150px;
+	height: 100px;
 }
 
 header{
@@ -12,13 +12,13 @@ margin: 0 auto;
 
 .logo{
 	position: relative;
-	top: 40px;
+	top: 10px;
 	width: 150px;
 }
 
 nav ul{
 	position: absolute;
-	top: 70px;
+	top: 40px;
 	right: 50px;
 }
 
@@ -29,7 +29,8 @@ nav li{
 
 nav a{
 	font-size: 25px;
-	color: #000000;
+	color: #808080;
+	font-weight: bold;
 	text-decoration: none;
 	margin-right: 10px;
 	text-transform: uppercase;
@@ -94,15 +95,38 @@ main li:hover{
 	padding: 10px;
 }
 
-label{
+form label, legend{
+	display: block;
 	font-size: 20px;
+	margin: 0 0 10px;
+}
+.options{
+	margin: 0 0 15px;
+}
+
+.enviar{
+	margin-top: 15px;
+	font-size: 20px;
+	padding: 15px;
+	background:#FFAF0F;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	width: 35%;
+	font-weight: bold;
+	transition: 1s all;
+}
+
+.enviar:hover{
+	background:#DB8E0A;;
+	transform: scale(1.2);
 }
 
 footer{
 	background:#D4F8AA ;
 	text-align: center;
 	position: relative;
-	top: 50;
+	top: 100;
 }
 
 footer p{
