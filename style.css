@@ -185,15 +185,14 @@ footer p{
 .beneficios{
 	padding: 3em 0;
 	background:#808080;
-	width: 940px;
-	margin: 0px auto; 
+	
 }
 
 .lista-beneficios{
 	width: 30%;
 	display: inline-block;
 	position: relative;
-	left: 230px;
+	left: 120px;
 	vertical-align: top;
 }
 
