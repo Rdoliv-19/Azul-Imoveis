@@ -152,7 +152,7 @@ footer p{
 
 .principal{
 	padding: 3em 0;
-	background: ;
+	background: #FEFEFE;
 	width: 940px;
 	margin: 0px auto;
 }
@@ -205,7 +205,7 @@ footer p{
 
 .mapa{
 	padding: 3em 0;
-	
+	background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa-conteudo{
@@ -225,7 +225,10 @@ footer p{
 
 .itens{
 line-height:1.5em;
+}
 
+.itens:before{
+	content: "✫";
 }
 
 .itens:first-child{
