@@ -1,10 +1,15 @@
 body{
-	font-family: 'Caveat', cursive;
+	font-family: 'Cormorant Garamond', serif;
 }
 
 .cabecalho{
 	background-image: url(fundo.jfif);
 	height: 100px;
+}
+
+.cabecalho-home{
+	background: ;
+	height: 120px;
 }
 
 header{
@@ -87,7 +92,7 @@ main{
 }
 
 .logo-rodape{
-	width: 60;
+	width: 100px;
 }
 
 .formulario{
@@ -160,6 +165,7 @@ footer p{
 
 
 .principal p{
+	font-size: 20px;
 	margin: 0 0 1em;
 }
 
