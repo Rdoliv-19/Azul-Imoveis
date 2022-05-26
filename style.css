@@ -51,7 +51,7 @@ margin: 0 auto;
 }
 
 main{
-	
+	background: linear-gradient(#FEFEFE, #888888);
 }
 
 
@@ -132,7 +132,7 @@ form label, legend{
 }
 
 footer{
-	background:#DCDCDC;
+	background:#000000;
 	text-align: center;
 	position: relative;
 	top: 100;
@@ -140,6 +140,7 @@ footer{
 
 footer p{
 	font-size: 12px;
+	color: white;
 	
 }
 
@@ -178,7 +179,7 @@ footer p{
 }
 
 .imagem-imob{
-	width: 40%;
+	width: 45%;
 	position: relative;
 	left: 140px;
 }
@@ -190,7 +191,7 @@ footer p{
 
 .beneficios{
 	padding: 3em 0;
-	background:#808080;
+	
 	
 }
 
@@ -210,7 +211,7 @@ footer p{
 
 .mapa{
 	padding: 3em 0;
-	background: linear-gradient(#FEFEFE, #888888);
+	
 }
 
 .mapa-conteudo{
@@ -240,3 +241,4 @@ line-height:1.5em;
 .itens:first-child{
 	font-weight: bold;
 }
+
