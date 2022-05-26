@@ -251,3 +251,21 @@ line-height:1.5em;
 	font-weight: bold;
 }
 
+@media screen and (max-width:480px){
+	.cabecalho-home, .beneficios, .mapa, .video, .principal{
+		width: auto;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+
+	.beneficios, .imagem-imob{
+		width: 100%;
+	}
+}
+
