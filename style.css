@@ -15,6 +15,10 @@ width: 940px;
 margin: 0 auto;
 }
 
+main{
+	
+}
+
 
 .logo{
 	position: relative;
@@ -49,7 +53,7 @@ margin: 0 auto;
 
 .lista-servicos{
 	text-align: center;
-	margin: 50px 0;
+	margin: 82px 0;
 }
 
 
@@ -95,6 +99,13 @@ margin: 0 auto;
 	padding: 10px;
 }
 
+.form-contato{
+	width: 940px;
+	margin: 50px auto;
+
+}
+
+
 form label, legend{
 	display: block;
 	font-size: 20px;
@@ -127,8 +138,6 @@ form label, legend{
 footer{
 	background:#000000;
 	text-align: center;
-	position: relative;
-	top: 100;
 }
 
 footer p{
