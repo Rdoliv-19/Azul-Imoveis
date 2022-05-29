@@ -38,7 +38,10 @@ nav a:hover{
 
 .lista-servicos{
 	text-align: center;
-	margin: 82px 0;
+	margin: 82px auto;
+	position: relative;
+	width: 940px;
+
 }
 
 
@@ -85,8 +88,9 @@ nav a:hover{
 }
 
 .form-contato{
+	position: relative;
 	width: 940px;
-	margin: 50px auto;
+	margin: 20px auto;
 
 }
 
@@ -235,8 +239,10 @@ font-size: 20px;
 }
 
 @media screen and (max-width:480px){
-.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, 
+.video, .lista-servicos, .form-contato, .main-contato, .enviar {
 	width: auto;
+
 }
 
 h1{
@@ -250,6 +256,15 @@ nav{
 
 .lista-beneficios, .imagem-imob{
 	width: 100%;
+}
+
+.itens-servicos {
+	margin: 0 0 15px 0;
+	width: auto;
+}
+
+.form-contato{
+	margin-left: 20px;
 }
 
 }
