@@ -2,7 +2,7 @@
  Website de uma imobiliária com página de serviços oferecidos e formulário de contato.
 
 
-<h1>Página index</h1>
+<h1 tex-alig=center>Página index</h1>
 
 <p>Na página inicial é descrito sobre a Azul imíveis e qual sua missão e objetivo no mercado. Seguido da localização no Google Maps
   
